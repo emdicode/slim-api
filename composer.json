@@ -1,0 +1,26 @@
+{
+    "name": "emdicode/slim-api",
+    "description": "A starter kit api based on Slim Framework",
+    "homepage": "https://github.com/emdicode/slim-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tuan Nguyen",
+            "email": "aionetocyou@gmail.com",
+            "homepage": "https://github.com/tuannda"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.5",
+        "slim/slim": "^4.10"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.5",
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
